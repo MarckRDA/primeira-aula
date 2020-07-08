@@ -6,19 +6,21 @@ namespace primeira_aula
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Suck my dick");
-            var myText = "meu texto";
-            var myNumber = 8;
-            var myPrice = 4.099;
-            var myBoolean = myPrice == myNumber;
-
-            Console.WriteLine("Você é maior de idade?");
-            var result = Console.ReadLine();
-
-            myBoolean = result == "sim";
-            Console.WriteLine(myText);
-            Console.WriteLine(myBoolean);
-            Console.WriteLine(myBoolean);
+            
+            Console.WriteLine("Qual é sua idade?");
+            //Tranformando o texto que o usuário digitou para integer
+            var userAge = Int32.Parse(Console.ReadLine());
+            
+            //Comparando se o valor da variável amILegalAge é true
+            if(userAge > 15 && userAge < 51){
+                Console.WriteLine("Sim, você tem idade para o entra21");
+            }
+            else{
+                //Se não, o valor da variável amILegalAge é false
+                Console.WriteLine("Não, você não tem idade para o entra21");
+            }
+            
+         
             
         }
     }

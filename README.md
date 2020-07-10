@@ -133,6 +133,9 @@ CTRL + U
 Comando para abrir o terminal:
 CTRL + '
 
+Comando para entrantrar arquivos:
+CTRL + T
+
 ### Depurando a aplicação
 1. Clicar no ícone da baratinha e depois no botão de engrenagem: 
 

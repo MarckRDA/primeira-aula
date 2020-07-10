@@ -130,6 +130,9 @@ CTRL + Y
 Comando para descomentar:
 CTRL + U
 
+Comando para abrir o terminal:
+CTRL + '
+
 ### Depurando a aplicação
 1. Clicar no ícone da baratinha e depois no botão de engrenagem: 
 
